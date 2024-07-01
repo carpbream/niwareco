@@ -1,0 +1,23 @@
+name: Test on Merge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          brew install swift
+          brew install xcode
+
+      - name: Run tests
+        run: |
+          xcodebuild test -scheme niwareco -destination "platform=iOS Simulator,name=iPhone 15"
+
