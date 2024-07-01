@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87F33E952C32A43200649555 /* niwarecoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F33E942C32A43200649555 /* niwarecoApp.swift */; };
+		87F33E972C32A43200649555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F33E962C32A43200649555 /* ContentView.swift */; };
+		87F33E992C32A43300649555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F33E982C32A43300649555 /* Assets.xcassets */; };
+		87F33E9C2C32A43300649555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F33E9B2C32A43300649555 /* Preview Assets.xcassets */; };
+		87F33EA62C32A43400649555 /* niwarecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F33EA52C32A43400649555 /* niwarecoTests.swift */; };
+		87F33EB02C32A43400649555 /* niwarecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F33EAF2C32A43400649555 /* niwarecoUITests.swift */; };
+		87F33EB22C32A43400649555 /* niwarecoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F33EB12C32A43400649555 /* niwarecoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87F33EA22C32A43400649555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F33E892C32A43200649555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F33E902C32A43200649555;
+			remoteInfo = niwareco;
+		};
+		87F33EAC2C32A43400649555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F33E892C32A43200649555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F33E902C32A43200649555;
+			remoteInfo = niwareco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87F33E912C32A43200649555 /* niwareco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niwareco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F33E942C32A43200649555 /* niwarecoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = niwarecoApp.swift; sourceTree = "<group>"; };
+		87F33E962C32A43200649555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87F33E982C32A43300649555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87F33E9B2C32A43300649555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87F33EA12C32A43400649555 /* niwarecoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = niwarecoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F33EA52C32A43400649555 /* niwarecoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = niwarecoTests.swift; sourceTree = "<group>"; };
+		87F33EAB2C32A43400649555 /* niwarecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = niwarecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F33EAF2C32A43400649555 /* niwarecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = niwarecoUITests.swift; sourceTree = "<group>"; };
+		87F33EB12C32A43400649555 /* niwarecoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = niwarecoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87F33E8E2C32A43200649555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F33E9E2C32A43400649555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F33EA82C32A43400649555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87F33E882C32A43200649555 = {
+			isa = PBXGroup;
+			children = (
+				87F33E932C32A43200649555 /* niwareco */,
+				87F33EA42C32A43400649555 /* niwarecoTests */,
+				87F33EAE2C32A43400649555 /* niwarecoUITests */,
+				87F33E922C32A43200649555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87F33E922C32A43200649555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87F33E912C32A43200649555 /* niwareco.app */,
+				87F33EA12C32A43400649555 /* niwarecoTests.xctest */,
+				87F33EAB2C32A43400649555 /* niwarecoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87F33E932C32A43200649555 /* niwareco */ = {
+			isa = PBXGroup;
+			children = (
+				87F33E942C32A43200649555 /* niwarecoApp.swift */,
+				87F33E962C32A43200649555 /* ContentView.swift */,
+				87F33E982C32A43300649555 /* Assets.xcassets */,
+				87F33E9A2C32A43300649555 /* Preview Content */,
+			);
+			path = niwareco;
+			sourceTree = "<group>";
+		};
+		87F33E9A2C32A43300649555 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87F33E9B2C32A43300649555 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87F33EA42C32A43400649555 /* niwarecoTests */ = {
+			isa = PBXGroup;
+			children = (
+				87F33EA52C32A43400649555 /* niwarecoTests.swift */,
+			);
+			path = niwarecoTests;
+			sourceTree = "<group>";
+		};
+		87F33EAE2C32A43400649555 /* niwarecoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87F33EAF2C32A43400649555 /* niwarecoUITests.swift */,
+				87F33EB12C32A43400649555 /* niwarecoUITestsLaunchTests.swift */,
+			);
+			path = niwarecoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87F33E902C32A43200649555 /* niwareco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F33EB52C32A43400649555 /* Build configuration list for PBXNativeTarget "niwareco" */;
+			buildPhases = (
+				87F33E8D2C32A43200649555 /* Sources */,
+				87F33E8E2C32A43200649555 /* Frameworks */,
+				87F33E8F2C32A43200649555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = niwareco;
+			productName = niwareco;
+			productReference = 87F33E912C32A43200649555 /* niwareco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87F33EA02C32A43400649555 /* niwarecoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F33EB82C32A43400649555 /* Build configuration list for PBXNativeTarget "niwarecoTests" */;
+			buildPhases = (
+				87F33E9D2C32A43400649555 /* Sources */,
+				87F33E9E2C32A43400649555 /* Frameworks */,
+				87F33E9F2C32A43400649555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F33EA32C32A43400649555 /* PBXTargetDependency */,
+			);
+			name = niwarecoTests;
+			productName = niwarecoTests;
+			productReference = 87F33EA12C32A43400649555 /* niwarecoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87F33EAA2C32A43400649555 /* niwarecoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F33EBB2C32A43400649555 /* Build configuration list for PBXNativeTarget "niwarecoUITests" */;
+			buildPhases = (
+				87F33EA72C32A43400649555 /* Sources */,
+				87F33EA82C32A43400649555 /* Frameworks */,
+				87F33EA92C32A43400649555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F33EAD2C32A43400649555 /* PBXTargetDependency */,
+			);
+			name = niwarecoUITests;
+			productName = niwarecoUITests;
+			productReference = 87F33EAB2C32A43400649555 /* niwarecoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87F33E892C32A43200649555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					87F33E902C32A43200649555 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					87F33EA02C32A43400649555 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 87F33E902C32A43200649555;
+					};
+					87F33EAA2C32A43400649555 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 87F33E902C32A43200649555;
+					};
+				};
+			};
+			buildConfigurationList = 87F33E8C2C32A43200649555 /* Build configuration list for PBXProject "niwareco" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87F33E882C32A43200649555;
+			productRefGroup = 87F33E922C32A43200649555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87F33E902C32A43200649555 /* niwareco */,
+				87F33EA02C32A43400649555 /* niwarecoTests */,
+				87F33EAA2C32A43400649555 /* niwarecoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87F33E8F2C32A43200649555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F33E9C2C32A43300649555 /* Preview Assets.xcassets in Resources */,
+				87F33E992C32A43300649555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F33E9F2C32A43400649555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F33EA92C32A43400649555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87F33E8D2C32A43200649555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F33E972C32A43200649555 /* ContentView.swift in Sources */,
+				87F33E952C32A43200649555 /* niwarecoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F33E9D2C32A43400649555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F33EA62C32A43400649555 /* niwarecoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F33EA72C32A43400649555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F33EB22C32A43400649555 /* niwarecoUITestsLaunchTests.swift in Sources */,
+				87F33EB02C32A43400649555 /* niwarecoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87F33EA32C32A43400649555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F33E902C32A43200649555 /* niwareco */;
+			targetProxy = 87F33EA22C32A43400649555 /* PBXContainerItemProxy */;
+		};
+		87F33EAD2C32A43400649555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F33E902C32A43200649555 /* niwareco */;
+			targetProxy = 87F33EAC2C32A43400649555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87F33EB32C32A43400649555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87F33EB42C32A43400649555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87F33EB62C32A43400649555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"niwareco/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XQML4C489;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myco-apps.niwareco";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87F33EB72C32A43400649555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"niwareco/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XQML4C489;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myco-apps.niwareco";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87F33EB92C32A43400649555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XQML4C489;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myco-apps.niwarecoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/niwareco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/niwareco";
+			};
+			name = Debug;
+		};
+		87F33EBA2C32A43400649555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XQML4C489;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myco-apps.niwarecoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/niwareco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/niwareco";
+			};
+			name = Release;
+		};
+		87F33EBC2C32A43400649555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XQML4C489;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myco-apps.niwarecoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = niwareco;
+			};
+			name = Debug;
+		};
+		87F33EBD2C32A43400649555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XQML4C489;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myco-apps.niwarecoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = niwareco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87F33E8C2C32A43200649555 /* Build configuration list for PBXProject "niwareco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F33EB32C32A43400649555 /* Debug */,
+				87F33EB42C32A43400649555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F33EB52C32A43400649555 /* Build configuration list for PBXNativeTarget "niwareco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F33EB62C32A43400649555 /* Debug */,
+				87F33EB72C32A43400649555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F33EB82C32A43400649555 /* Build configuration list for PBXNativeTarget "niwarecoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F33EB92C32A43400649555 /* Debug */,
+				87F33EBA2C32A43400649555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F33EBB2C32A43400649555 /* Build configuration list for PBXNativeTarget "niwarecoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F33EBC2C32A43400649555 /* Debug */,
+				87F33EBD2C32A43400649555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87F33E892C32A43200649555 /* Project object */;
+}
