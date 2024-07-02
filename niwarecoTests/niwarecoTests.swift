@@ -11,6 +11,7 @@ import Testing
 struct niwarecoTests {
 
     @Test func testExample() async throws {
+        #expect(1==2)
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
     }
 
